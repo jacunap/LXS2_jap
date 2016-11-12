@@ -19,3 +19,4 @@ echo "Puertos  Habilitados  en el Servidor" >> $REPORTE
 echo "##############" >> $REPORTE
 
 netstat -latun | grep LISTEN >> $REPORTE
+
