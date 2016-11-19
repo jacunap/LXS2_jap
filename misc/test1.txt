@@ -1,0 +1,44 @@
+sedsdfsd
+fsd
+f
+sdf
+sdf
+sdf
+sddfsdf
+
+#####################################################################
+####################################################################
+
+(test)
+.  ..  auth.log.1  dhcpd.conf  salida-de-  .test1.txt.swp  tmp1
+
+###################################################################
+##################################################################
+
+eno1      Link encap:Ethernet  HWaddr 78:2b:cb:7c:f5:9c  
+          inet addr:10.124.18.38  Bcast:10.124.18.255  Mask:255.255.255.0
+          inet6 addr: fe80::d62:c3ed:f14a:6cd7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:81376 errors:0 dropped:550 overruns:0 frame:0
+          TX packets:33945 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:36730966 (36.7 MB)  TX bytes:6104213 (6.1 MB)
+          Interrupt:21 Memory:f7be0000-f7c00000 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:4339 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4339 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:581000 (581.0 KB)  TX bytes:581000 (581.0 KB)
+
+virbr0    Link encap:Ethernet  HWaddr 00:00:00:00:00:00  
+          inet addr:192.168.122.1  Bcast:192.168.122.255  Mask:255.255.255.0
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+

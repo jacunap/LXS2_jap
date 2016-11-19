@@ -1,0 +1,348 @@
+    1  pwd
+    2  ls -a
+    3  #mv .bash_history .bash_history
+    4  mkdir old_history
+    5  mv .bash_history old_history/
+    6  touch .bash_history
+    7  ls -l .bash_history
+    8  ls
+    9  cd ~/Desktop/
+   10  nano test.bash
+   11  bash test.bash 
+   12  echo test.bash 
+   13  clear
+   14  bash test.bash 
+   15  nano test.bash 
+   16  clear
+   17  history 
+   18  ls
+   19  cd ~/Desktop/
+   20  ls
+   21  bash permisos.sh 
+   22  clear
+   23  ls
+   24  gdit permisos.sh 
+   25  nano permisos.sh 
+   26  bash permisos.sh 
+   27  clear
+   28  bash test.bash 
+   29  bash test
+   30  cp test.bash valor.sh
+   31  bash valor.sh 
+   32  rm valor.sh 
+   33  cp test.bash g1
+   34  bash g1 
+   35  rm g1 
+   36  ls
+   37  rm test.bash 
+   38  ls
+   39  clear
+   40  add
+   41  ip addr
+   42  ip addr -4
+   43  clear
+   44  ssh user1@10.124.18.28
+   45  pwd
+   46  tty
+   47  pwd
+   48  git commit -m "Inicio del repositorio de nivel 2"
+   49  git commit -m Inicio del repositorio de nivel 2
+   50  git commit -m 
+   51  clear
+   52  git commit LXS2_jap/
+   53  clear
+   54  aux ps
+   55  kill -9 7227
+   56  ps aux
+   57  kill 12931
+   58  kill -9 12931
+   59  kill -9 12891
+   60  kill -9 12892
+   61  kill -9 12894
+   62  ps aux
+   63  clea
+   64  clear
+   65  ps aux
+   66  clear
+   67  w
+   68  git commit -m clase3
+   69  git commit -m "clase3"
+   70  clear
+   71  htop
+   72  sudo apt-get install htop 
+   73  htop
+   74  exit
+   75  history
+   76  ### inicio de seccion de entrecomillado
+   77  history
+   78  clear
+   79  var1=trump
+   80  VAR1=trump
+   81  echo $VAR1 es una rata
+   82  echo $VAR1
+   83  echo $VAR1 es una rata
+   84  clear
+   85  echo $VAR1 es una rata
+   86  echo '$VAR1 es una rata'
+   87  clear
+   88  cd ~/Desktop/
+   89  cd LXS2_jap/
+   90  ls
+   91  cd misc/
+   92  clear
+   93  ls -a
+   94  mkdir tmp1
+   95  ls
+   96  mv `ls *.log` tmp1/
+   97  mv `ls*.log` tmp1/
+   98  mv `ls *.log` tmp1/
+   99  clear
+  100  ls
+  101  tree
+  102  ls *.log
+  103  clear
+  104  mv `ls *.log` tmp1/
+  105  mv ls *.log tmp1/
+  106  mv `ls *.log` tmp1/
+  107  clear
+  108  ls -a
+  109  mv auth.log.1 dhcpd.conf salida-de- tmp1/
+  110  clear
+  111  tree
+  112  ls *.log
+  113  ls
+  114  cd tmp1/
+  115  ls
+  116  cd ..
+  117  clear
+  118  echo hola mundo
+  119  echo hola
+  120  echo "hola
+  121  mundo"
+  122  echo ""
+  123  echo "
+  124  hola
+  125  mundo"
+  126  echo "
+  127  hola
+  128  mundo
+  129  "
+  130  clear
+  131  echo 
+  132  echo tmp1/
+  133  clear
+  134  tree
+  135  cd tmp1/
+  136  ls
+  137  cp auth.log.1 dhcpd.conf salida-de- /home/sysadmin/Desktop/LXS2_jap/misc/
+  138  cd ..
+  139  clear
+  140  tree
+  141  clear
+  142  grep host dhcpd.conf 
+  143  grep host dhcpd.conf*
+  144  clear
+  145  ls
+  146  vm salida-de- salida-de-perrito
+  147  clear
+  148  cat /tmp/
+  149  ls
+  150  ls -a
+  151  clear
+  152  grep host -R  * 2> /tmp/
+  153  grep host -R  * 2> /tmp/clear
+  154  clear
+  155  grep host -R  * 2> /tmp/clear
+  156  clear
+  157  echo el valor del \$ esta en C500
+  158  echo 4\*2\>10\es\ falso
+  159  echo "4*2>10 es falso"
+  160  echo "El precio total es de \$5"
+  161  echo 'El precio total es de $5'
+  162  ls
+  163  echo "4*2>10 es falso"
+  164  clear
+  165  bash test.bash
+  166  ls
+  167  touch /-C
+  168  touch -C
+  169  touch - -C
+  170  touch --C
+  171  clear
+  172  touch '-C'
+  173  touch '-C'.txt
+  174  touch /'-C'.txt
+  175  touch \'-C'.txt
+  176  clear
+  177  pstree
+  178  clear
+  179  pstree | less
+  180  sudo apt-get install apache2
+  181  clear
+  182  pstree | less
+  183  cd /var/log/apache2
+  184  ls
+  185  watch -n 1 "tail access.log"
+  186  ls
+  187  cat access.log |
+  188  cat access.log | cut -d
+  189  nano access.log 
+  190  netstat -latun
+  191  netstat -latum
+  192  netstat -latunp
+  193  netstat -latunp | listen
+  194  netstat -latunp | grep LISTEN
+  195  pwd
+  196  ps aux | less
+  197  netstat -latunp | listen
+  198  cat access.log | cut -d
+  199  watch -n 1 "tail access.log"
+  200  ps aux | grep sshd
+  201  clear
+  202  ps aux | grep sshd
+  203  W
+  204  w
+  205  cd ..
+  206  ls
+  207  clear
+  208  cd ~/Desktop/LXS2_jap/misc/
+  209  ls
+  210  nano test1.txt
+  211  vim test1.txt
+  212  jobs
+  213  clear
+  214  jobs
+  215  fg
+  216  jobs
+  217  ls
+  218  jobs
+  219  fg
+  220  ls
+  221  ls -a
+  222  fg
+  223  ls
+  224  clear
+  225  nano test1.txt 
+  226  .  ..  auth.log.1  dhcpd.conf  salida-de-  .test1.txt.swp  tmp1
+  227  clear
+  228  ls
+  229  pushd LXS2_jap
+  230  cd
+  231  pushd LXS2_jap
+  232  pushd ~/LXS2_jap/misc
+  233  pushd ~/LXS2_jap$
+  234  clear
+  235  pwd
+  236  cd ~/Desktop/
+  237  ls
+  238  cd LXS2_jap/
+  239  cd misc/
+  240  yes
+  241  clear
+  242  jobs
+  243  clear
+  244  yes hola > dev/null
+  245  yes hola > /dev/null
+  246  yes hola > /dev/null &
+  247  clear
+  248  jobs
+  249  yes hola > /dev/null &
+  250  jobs
+  251  clear
+  252  yes hola > /dev/null &
+  253  $ping
+  254  ping
+  255  ping 127.0.0.1
+  256  ping 127.0.0.1 > /dev/null &
+  257  jobs
+  258  clear
+  259  jobs
+  260  clear
+  261  jobs
+  262  ls
+  263  vim test1.txt 
+  264  jobs
+  265  ping 127.0.0.1 > /dev/null &
+  266  jobs
+  267  clear
+  268  jobs
+  269  fg 2
+  270  fg 5
+  271  jobs
+  272  fg 6
+  273  bg 6
+  274  bg 5
+  275  jobs
+  276  clear
+  277  ps tree | less
+  278  ps tree
+  279  clear
+  280  ps
+  281  netstat -n a | les
+  282  netstat -n a | less
+  283  ps -l
+  284  ps -a
+  285  id
+  286  clear
+  287  ps -;
+  288  clear
+  289  ps -l
+  290  ps -x
+  291  clear
+  292  ps -x
+  293  tree
+  294  ps tree
+  295  pstree
+  296  clear
+  297  pstree
+  298  clear
+  299  ps -u www-data
+  300  grep USER /etc/apache2/
+  301  grep USER /etc/apache2/envvars 
+  302  jobs
+  303  ps -ef
+  304  pgrep 
+  305  pgrep clear
+  306  clear
+  307  ps -a | grep ping | cut -d " " -f2
+  308  jobs
+  309  ps -a | grep yes | cut -d " " -f2
+  310  ps -a | grep yes | cut -d " " -f1
+  311  ps -a | grep yes | cut -d " " -f4
+  312  ps -a | grep yes | cut -d " " -f5
+  313  ps -a | grep yes | cut -d " " -f3
+  314  ps -a | grep yes | cut -d " " -f1
+  315  pgrep ping
+  316  clear
+  317  ps -a | grep yes | cut -d " " -f1
+  318  ps -a | grep yes | cut -d " " -f2
+  319  ps -a
+  320  kill -15 `pgrep yes`
+  321  jobs
+  322  cow
+  323  clear
+  324  ps -l
+  325  ps flag
+  326  flag
+  327  free
+  328  uptime
+  329  free -h
+  330  df -lh
+  331  uptime
+  332  git commit "clase3"
+  333  git commit clase3
+  334  clear
+  335  sudo apt-get install iotop
+  336  iotop
+  337  clear
+  338  top
+  339  clear
+  340  git add 
+  341  ls -a
+  342  clear
+  343  ls
+  344  nano test1.txt 
+  345  ls
+  346  pwd
+  347  cd ~/Desktop/
+  348  history > LXS2_jap/history/history-$HOSTNAME-`date +Y%m%d`
