@@ -48,6 +48,9 @@ se puede agregar el dispositivo. Hay tres opciones obligartorias:
 No se agrega vda debido a que se supone que ya existe un sistema instalado
 y por consiguiente el primer dispositivo físico ya es†á utilizado.
 
+## En ubuntu 16.04 se debe configurar aooarmor para crear un pool nuevo.
+## para seguir el primer lab, vamos a copiar las imagenes disk-xx.img al 
+## path por defecto para las imagenes que seria /var/lib/libvirtd/images
 
 $ virsh
 virsh # attach-disk <VM> /media/<user>/media-pool/disk-00.img vdb --cache none --live
